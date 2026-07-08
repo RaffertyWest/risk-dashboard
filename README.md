@@ -1,0 +1,1 @@
+Trading risk dashboard — VaR, options Greeks, and liquidity metrics in Python. Work in progress.
