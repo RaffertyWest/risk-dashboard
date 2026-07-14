@@ -1,1 +1,3 @@
 Trading risk dashboard — VaR, options Greeks, and liquidity metrics in Python. Work in progress.
+
+Historical VaR assumes tomorrow's returns are drawn from the same distribution as the sample it was estimated from. Mine was estimated from the past year, which showed no real turmoil, a very market-typical period with minimal dips, so the model has effectively never seen a bad day and can't output a loss worse than its sample. It would understate risk badly in more treacherous markets. The FX diversification helps in normal conditions, but in a panic market makers step back, liquidity gets pulled, and everything sells off together so the diversification benefit that's baked into the historical sample disappears.
